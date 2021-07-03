@@ -28,4 +28,5 @@ def index():
 def user(name):
     return render_template('user.html', name=name)
 
-app.run()
+if __name__ == '__main__':
+    app.run()
